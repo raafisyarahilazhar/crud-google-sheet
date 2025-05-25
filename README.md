@@ -1,20 +1,19 @@
-google-sheet-crud/
-│
-├── create.php
-├── read.php
-├── update.php
-├── delete.php
-├── google-sheet-client.php
-├── credentials.json ← file dari Google Cloud
-├── composer.json
-└── vendor/ ← hasil dari composer install
+Struktur Folder
+create.php
+read.php
+update.php
+delete.php
+google-sheet-client.php
+credentials.json ← file dari Google Cloud
+composer.json
+vendor/ ← hasil dari composer install
 
  Install dependencies menggunakan Composer
  composer require google/apiclient:^2.0
 
 Buat file Google Spreadsheet
 https://docs.google.com/spreadsheets/d/1AbCDefGhIjKlMnOpQrstUVwxyz12345678/edit#gid=0
-                                       👆 Ini adalah Spreadsheet ID
+1AbCDefGhIjKlMnOpQrstUVwxyz12345678 -> Ini adalah Spreadsheet ID
 
 Setup Google Cloud & API
 1. Buat Project Google Cloud
