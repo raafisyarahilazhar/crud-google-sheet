@@ -38,6 +38,7 @@ Klik Add Key → Create new key → JSON
 File JSON akan otomatis terunduh → simpan dengan nama credentials.json di folder proyek kamu
 
 Ubah google-sheet-client.php
+
 function getSpreadsheetId() {
     return 'ISI_DENGAN_SPREADSHEET_ID_ANDA';
 }
